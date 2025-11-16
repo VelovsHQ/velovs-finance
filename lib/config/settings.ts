@@ -103,7 +103,7 @@ export const SocialLink = {
   facebook: "",
   instagram: "",
   tiktok: "",
-  x: "",
+  x: "https://x.com/VelovsHQ",
   youtube: "",
   linkedin: "",
   pinterest: "",
