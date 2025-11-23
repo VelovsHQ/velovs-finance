@@ -113,7 +113,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 💳 Payment Integration
 
-This boilerplate supports both Stripe and Lemon Squeezy:
+This platform supports both Stripe and Lemon Squeezy:
 
 - Users can choose their preferred payment method
 - Unified checkout experience

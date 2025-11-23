@@ -45,7 +45,7 @@ export function WelcomeEmail({ firstName, dashboardUrl }: WelcomeEmailProps) {
             margin: "0 0 10px 0",
           }}
         >
-          • ✅ Create professional contracts and agreements
+          • 📊 Access your comprehensive financial dashboard
         </Text>
         <Text
           style={{
@@ -55,7 +55,7 @@ export function WelcomeEmail({ firstName, dashboardUrl }: WelcomeEmailProps) {
             margin: "0 0 10px 0",
           }}
         >
-          • ✍️ Get legally binding e-signatures
+          • 📈 Track your portfolio in real-time
         </Text>
         <Text
           style={{
@@ -65,7 +65,7 @@ export function WelcomeEmail({ firstName, dashboardUrl }: WelcomeEmailProps) {
             margin: "0 0 10px 0",
           }}
         >
-          • 🤖 Generate AI-powered contracts instantly
+          • 🤖 Get AI-powered financial insights instantly
         </Text>
         <Text
           style={{
@@ -75,7 +75,7 @@ export function WelcomeEmail({ firstName, dashboardUrl }: WelcomeEmailProps) {
             margin: "0 0 20px 0",
           }}
         >
-          • 💰 Create payment links and invoices
+          • 🔒 Manage secure transactions with confidence
         </Text>
       </Section>
 
