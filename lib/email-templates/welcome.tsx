@@ -9,7 +9,7 @@ interface WelcomeEmailProps {
 export function WelcomeEmail({ firstName, dashboardUrl }: WelcomeEmailProps) {
   return (
     <BaseEmail
-      preview={`Welcome to Founderflow, ${firstName}!`}
+      preview={`Welcome to Velovs & Co, ${firstName}!`}
       title={`Welcome aboard, ${firstName}! 🎉`}
     >
       <Text
@@ -20,7 +20,7 @@ export function WelcomeEmail({ firstName, dashboardUrl }: WelcomeEmailProps) {
           margin: "0 0 20px 0",
         }}
       >
-        Thank you for joining Founderflow! We're excited to have you as part of our
+        Thank you for joining Velovs & Co! We're excited to have you as part of our
         community.
       </Text>
 
@@ -45,7 +45,7 @@ export function WelcomeEmail({ firstName, dashboardUrl }: WelcomeEmailProps) {
             margin: "0 0 10px 0",
           }}
         >
-          • ✅ Create professional contracts and agreements
+          • 📊 Access your comprehensive financial dashboard
         </Text>
         <Text
           style={{
@@ -55,7 +55,7 @@ export function WelcomeEmail({ firstName, dashboardUrl }: WelcomeEmailProps) {
             margin: "0 0 10px 0",
           }}
         >
-          • ✍️ Get legally binding e-signatures
+          • 📈 Track your portfolio in real-time
         </Text>
         <Text
           style={{
@@ -65,7 +65,7 @@ export function WelcomeEmail({ firstName, dashboardUrl }: WelcomeEmailProps) {
             margin: "0 0 10px 0",
           }}
         >
-          • 🤖 Generate AI-powered contracts instantly
+          • 🤖 Get AI-powered financial insights instantly
         </Text>
         <Text
           style={{
@@ -75,7 +75,7 @@ export function WelcomeEmail({ firstName, dashboardUrl }: WelcomeEmailProps) {
             margin: "0 0 20px 0",
           }}
         >
-          • 💰 Create payment links and invoices
+          • 🔒 Manage secure transactions with confidence
         </Text>
       </Section>
 
@@ -120,7 +120,7 @@ export function WelcomeEmail({ firstName, dashboardUrl }: WelcomeEmailProps) {
       >
         Best regards,
         <br />
-        The Founderflow Team
+        The Velovs Team
       </Text>
     </BaseEmail>
   );

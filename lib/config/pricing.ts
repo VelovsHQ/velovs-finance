@@ -84,27 +84,27 @@ export const PricingPlans: PricingPlanTypes[] = [
     features: [
       {
         active: true,
-        title: "Effortless Contract Creation (NDA, Service Agreements, etc.)",
+        title: "Comprehensive Financial Dashboard 📊",
       },
       {
         active: true,
-        title: "Instant Agreement Sharing",
+        title: "Real-time Portfolio Tracking",
       },
       {
         active: true,
-        title: "Legally Binding E-Signatures ✍️",
+        title: "Advanced Analytics & Reporting 📈",
       },
       {
         active: true,
-        title: "Seamless Payment Link Generation",
+        title: "Multi-Currency Support",
       },
       {
         active: true,
-        title: "On-Demand Invoicing (Pay-as-you-go)",
+        title: "Secure Transaction Management 🔒",
       },
       {
         active: true,
-        title: "One-Click AI-Powered Contract Generation 🤖",
+        title: "AI-Powered Financial Insights 🤖",
       },
       {
         active: true,
@@ -129,27 +129,27 @@ export const PricingPlans: PricingPlanTypes[] = [
     features: [
       {
         active: true,
-        title: "Effortless Contract Creation (NDA, Service Agreements, etc.)",
+        title: "Comprehensive Financial Dashboard 📊",
       },
       {
         active: true,
-        title: "Instant Agreement Sharing",
+        title: "Real-time Portfolio Tracking",
       },
       {
         active: true,
-        title: "Legally Binding E-Signatures ✍️",
+        title: "Advanced Analytics & Reporting 📈",
       },
       {
         active: true,
-        title: "Seamless Payment Link Generation",
+        title: "Multi-Currency Support",
       },
       {
         active: true,
-        title: "On-Demand Invoicing (Pay-as-you-go)",
+        title: "Secure Transaction Management 🔒",
       },
       {
         active: true,
-        title: "One-Click AI-Powered Contract Generation 🤖",
+        title: "AI-Powered Financial Insights 🤖",
       },
       {
         active: true,
