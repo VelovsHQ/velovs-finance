@@ -8,26 +8,25 @@ export default function LandingPage() {
         {/* Hero Section */}
         <div className="mt-32 md:mt-32 text-center">
           <h1 className="text-2xl md:text-4xl font-bold tracking-tight">
-            Build Your SaaS Faster with Founderflow
+            Velovs Finance - Redefining Finance with Bold Vision
           </h1>
           <p className="mt-6 text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto">
-            A modern, fully featured Next.js boilerplate with authentication,
-            subscriptions, i18n, beautiful UI components, and everything you
-            need to launch your SaaS quickly.
+            Trust, prestige, and performance guiding every financial initiative.
+            Experience modern finance solutions built for your success.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
-            <Link href="https://boilerplates.founderflow.lk/docs">
+            <Link href="/pricing">
               <Button size="lg" className="w-full sm:w-auto font-semibold">
-                View Documentation
+                View Pricing
               </Button>
             </Link>
-            <Link href="https://github.com/founderflow-boilderplate/nextjs-mdb-clr/">
+            <Link href="/login">
               <Button
                 size="lg"
                 variant="outline"
                 className="w-full sm:w-auto font-semibold"
               >
-                GitHub Repository
+                Sign In
               </Button>
             </Link>
           </div>
