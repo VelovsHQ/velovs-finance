@@ -30,7 +30,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             defaultTheme="light"
             enableSystem
             disableTransitionOnChange
-            storageKey="founderflow-theme"
+            storageKey="velovs-theme"
           >
             {children}
           </ThemeProvider>

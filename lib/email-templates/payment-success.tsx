@@ -91,8 +91,8 @@ export function PaymentSuccessEmail({
           margin: "0 0 20px 0",
         }}
       >
-        You now have access to all the premium features of Founderflow. Start
-        creating professional contracts and growing your business today!
+        You now have access to all the premium features of Velovs & Co. Start
+        exploring your finance platform today!
       </Text>
 
       <Section style={{ textAlign: "center" as const, margin: "30px 0" }}>
@@ -154,9 +154,9 @@ export function PaymentSuccessEmail({
           margin: "0",
         }}
       >
-        Thank you for choosing Founderflow!
+        Thank you for choosing Velovs & Co!
         <br />
-        The Founderflow Team
+        The Velovs Team
       </Text>
     </BaseEmail>
   );

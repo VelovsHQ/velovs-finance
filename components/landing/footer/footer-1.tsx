@@ -11,11 +11,9 @@ import { motion } from "framer-motion";
 import { Logo } from "@/components/logo";
 import { footerData } from "@/lib/config/settings";
 import { FooterLink } from "@/components/landing/footer-link";
-import { Button } from "@/components/ui/button";
 import { Link, usePathname, useRouter } from "@/i18n/navigation";
 import { locales } from "@/lib/config/locales";
 import { useLocale, useTranslations } from "next-intl";
-import Image from "next/image";
 
 export default function Footer1() {
   const locale = useLocale();
@@ -52,14 +50,6 @@ export default function Footer1() {
             {t("Description")} Copyright © {new Date().getFullYear()} - All
             rights reserved
           </p>
-
-          <Button size="sm" variant="secondary" className="mt-2 group">
-            Build with{" "}
-            <div className=" relative w-4 h-4 ml-2 group-hover:scale-[1.02] group-hover:-rotate-6 duration-300">
-              <Image src="/icon.png" alt="" fill />
-            </div>{" "}
-            Founderflow
-          </Button>
         </div>
 
         {FooterContent.map((data, idx) => (

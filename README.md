@@ -1,6 +1,5 @@
-# Founderflow - SaaS Boilerplate
+# Velovs Finance Platform
 
-A complete, production-ready Next.js SaaS boilerplate with authentication, payments, internationalization, and more.
 
 ## 🚀 Features
 
@@ -33,7 +32,7 @@ A complete, production-ready Next.js SaaS boilerplate with authentication, payme
 
 ```bash
 git clone <your-repo-url>
-cd FounderflowBoilerplate
+cd finance-website
 ```
 
 ### 2. Install dependencies
@@ -114,7 +113,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 💳 Payment Integration
 
-This boilerplate supports both Stripe and Lemon Squeezy:
+This platform supports both Stripe and Lemon Squeezy:
 
 - Users can choose their preferred payment method
 - Unified checkout experience
@@ -156,11 +155,10 @@ Additional documentation is available in the `docs/` folder:
 
 ## 🤝 Support
 
-For issues and questions:
-1. Check the documentation in the `docs/` folder
-2. Review the code examples in `examples/`
-3. Open an issue on GitHub
+For questions or issues:
+1. Email: info@velovs.com
+2. Twitter: https://x.com/velovsHQ
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+© 2025 Velovs & Co. All rights reserved.
