@@ -75,32 +75,32 @@ const ComingSoonPage: NextPage = () => {
       <main className="flex flex-col items-center text-center space-y-6 md:space-y-8 w-full max-w-4xl">
         
         {/* Logo Placeholder */}
-        <div className="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center border-2 border-gray-800 mb-4">
+        {/* <div className="w-16 h-16 bg-gray-900 rounded-full flex items-center justify-center border-2 border-gray-800 mb-4">
           <LogoIcon />
-        </div>
+        </div> */}
 
         {/* Headline */}
         {/* The main heading with a larger font size, bold weight, and responsive text sizes. */}
         {/* A specific word is highlighted with the new gold brand color for emphasis. */}
-        <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight">
+        {/* <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-tight">
           The Future of  <span className="text-amber-400">Finance</span>.
-        </h1>
+        </h1> */}
 
         {/* Tagline */}
         {/* A short, catchy phrase supporting the headline, with a softer text color. */}
-        <p className="text-lg sm:text-xl text-gray-400 max-w-2xl">
+        {/* <p className="text-lg sm:text-xl text-gray-400 max-w-2xl">
           Seamlessly bridging traditional and decentralized finance.
-        </p>
+        </p> */}
 
         {/* Short Description */}
         {/* Provides more context about the brand and the upcoming launch. */}
-        <p className="max-w-lg text-gray-300">
+        {/* <p className="max-w-lg text-gray-300">
           Velovs is building a new generation of financial tools designed for speed, security, and accessibility. Join our waitlist to be the first to know when we launch.
-        </p>
+        </p> */}
 
         {/* Email Subscription Form */}
         {/* A simple form to capture user interest, styled with the new theme. */}
-        <form className="w-full max-w-md mt-4" onSubmit={(e) => e.preventDefault()}>
+        {/* <form className="w-full max-w-md mt-4" onSubmit={(e) => e.preventDefault()}>
           <div className="flex flex-col sm:flex-row gap-3">
             <input
               type="email"
@@ -116,13 +116,13 @@ const ComingSoonPage: NextPage = () => {
               Notify Me
             </button>
           </div>
-        </form>
+        </form> */}
       </main>
 
       {/* Footer Section */}
       {/* Contains social media links and copyright information, styled for the new theme. */}
       <footer className="w-full text-center text-gray-500">
-        <div className="flex items-center justify-center space-x-6">
+        {/* <div className="flex items-center justify-center space-x-6">
           <a href="#" aria-label="Telegram" className="hover:text-amber-400 transition-colors duration-300">
             <TelegramIcon />
           </a>
@@ -132,9 +132,9 @@ const ComingSoonPage: NextPage = () => {
           <a href="#" aria-label="Twitter" className="hover:text-amber-400 transition-colors duration-300">
             <TwitterIcon />
           </a>
-        </div>
+        </div> */}
         <p className="mt-4 text-sm">
-          &copy; {new Date().getFullYear()} Velovs Finance. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Velovs. All Rights Reserved.
         </p>
       </footer>
     </div>
