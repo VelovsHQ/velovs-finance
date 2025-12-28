@@ -67,7 +67,7 @@ const ComingSoonPage: NextPage = () => {
       
       {/* This empty div acts as a spacer to help vertically center the main content, 
           balancing the space taken by the footer. */}
-      <div />
+      <div/>
 
       {/* Hero Section */}
       {/* This section contains the core messaging. */}
