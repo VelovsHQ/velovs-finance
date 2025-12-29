@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Velovs Finance Platform
 
 
@@ -162,3 +163,6 @@ For questions or issues:
 ## 📄 License
 
 © 2025 Velovs & Co. All rights reserved.
+=======
+# velovs-finance
+>>>>>>> origin/feat/DB
