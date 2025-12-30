@@ -19,6 +19,7 @@ export default clerkMiddleware(async (auth, req) => {
   
   // Skip ALL middleware processing for static files, setup page and API routes
   if (
+    pathname === "/" ||
     pathname === "/setup" ||
     pathname.startsWith("/api/setup") ||
     pathname.startsWith("/api") ||
@@ -48,18 +49,7 @@ export default clerkMiddleware(async (auth, req) => {
   }
 
   // Only proceed with locale redirect if environment is complete
-  // Redirect "/" to default or user-selected locale
-  if (pathname === "/") {
-    const cookieLocale = req.cookies.get("NEXT_LOCALE")?.value;
-    const locale =
-      cookieLocale && locales.values.includes(cookieLocale)
-        ? cookieLocale
-        : locales.default;
-
-    const url = req.nextUrl.clone();
-    url.pathname = `/${locale}`;
-    return NextResponse.redirect(url);
-  }
+  // Skip locale redirect for root path - it will render directly
 
   if (!isPublicRoute(req)) {
     await auth.protect(); // Protect private routes
