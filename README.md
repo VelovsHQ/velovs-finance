@@ -1,11 +1,9 @@
-<<<<<<< HEAD
 # Velovs Finance Platform
-
 
 ## 🚀 Features
 
 - **Authentication**: Clerk integration with sign-up/sign-in
-- **Payments**: Dual payment provider support (Stripe & Lemon Squeezy) 
+- **Payments**: Dual payment provider support (Stripe & Lemon Squeezy)
 - **Internationalization**: Multi-language support with next-intl
 - **Database**: MongoDB integration with Mongoose
 - **UI Components**: Radix UI components with Tailwind CSS
@@ -76,11 +74,13 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 ### Payment Providers (Choose One or Both)
 
 **Stripe:**
+
 - `STRIPE_SECRET_KEY` - Stripe secret key
 - `NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY` - Stripe publishable key
 - `STRIPE_WEBHOOK_SECRET` - Stripe webhook secret
 
 **Lemon Squeezy:**
+
 - `LEMON_SQUEEZY_API_KEY` - Lemon Squeezy API key
 - `LEMON_SQUEEZY_STORE_ID` - Your store ID
 - `LEMON_SQUEEZY_WEBHOOK_SECRET` - Webhook secret
@@ -157,12 +157,10 @@ Additional documentation is available in the `docs/` folder:
 ## 🤝 Support
 
 For questions or issues:
+
 1. Email: info@velovs.com
 2. Twitter: https://x.com/velovsHQ
 
 ## 📄 License
 
 © 2025 Velovs & Co. All rights reserved.
-=======
-# velovs-finance
->>>>>>> origin/feat/DB

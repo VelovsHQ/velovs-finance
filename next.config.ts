@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
 import { SiteSettings } from "./lib/config/settings";
@@ -108,12 +107,3 @@ const nextConfig: NextConfig = {
 
 const withNextIntl = createNextIntlPlugin();
 export default withNextIntl(nextConfig);
-=======
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
->>>>>>> origin/feat/DB

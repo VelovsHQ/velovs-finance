@@ -7,7 +7,6 @@ const __dirname = dirname(__filename);
 
 const compat = new FlatCompat({
   baseDirectory: __dirname,
-<<<<<<< HEAD
   recommendedConfig: {},
 });
 
@@ -20,20 +19,6 @@ const eslintConfig = [
       "@next/next/no-img-element": "off",
       "react-hooks/exhaustive-deps": "warn",
     },
-=======
-});
-
-const eslintConfig = [
-  ...compat.extends("next/core-web-vitals", "next/typescript"),
-  {
-    ignores: [
-      "node_modules/**",
-      ".next/**",
-      "out/**",
-      "build/**",
-      "next-env.d.ts",
-    ],
->>>>>>> origin/feat/DB
   },
 ];
 
